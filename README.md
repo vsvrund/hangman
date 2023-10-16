@@ -46,3 +46,20 @@ In this milestone, we implemented the functionality to allow the player to guess
 Usage
 To play the Hangman game, create an instance of the Hangman class with a word list and start guessing letters using the ask_for_input method.
 
+
+## Task: Game Loop and Gameplay Management
+
+In this task, we've implemented a game loop and gameplay management to handle user interaction and determine the game outcome.
+
+### Implementation Details
+1. play_game Function:
+- Created a function called play_game to manage the Hangman game.
+- Accepts a list of words (word_list) as a parameter.
+2. Game Loop:
+- Inside the play_game function, implemented a game loop using a while loop.
+- Checked conditions to determine if the player won, lost, or needed to continue playing.
+- Calls the ask_for_input method for the player to guess a letter if the game continues.
+3. Game Outcome Messages:
+- Printed appropriate messages based on the game outcome (win, loss, or ongoing game).
+### Usage
+To play the Hangman game, use the play_game function and pass a list of words as an argument.
