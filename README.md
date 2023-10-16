@@ -1,4 +1,20 @@
 # Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+## Word Guessing Game
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+This is a simple word guessing game where the player guesses letters to find a secret word.
+
+## Functions
+
+### `check_guess(guess)`
+
+This function takes a guessed letter as an argument and checks if the letter is in the word.
+
+#### Parameters
+
+- `guess` (str): The guessed letter.
+
+#### Usage
+
+```python
+check_guess('a')
+
